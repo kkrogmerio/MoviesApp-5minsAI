@@ -20,11 +20,11 @@ export const searchMovies = (searchString: string) => {
       );
 
       let numOfPages = parseInt(fetchedData.data.total_pages);
-      console.log(searchString, ' this is searchstring');
+    
       let allMoviesDetails: MovieDataType[] = [];
       let count = 0;
       for (let i = 1; i < 500; i++) {
-        console.log(i);
+       
         let fetchedPageData = await axios.get<LIST_OF_MOVIES>(
           `https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=${MOVIE_DB_KEY}&page=${i}`,
         );
