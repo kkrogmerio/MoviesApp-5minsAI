@@ -12,7 +12,7 @@ const ErrorHandler:FC<Props> = ({message}) => {
     </View>
   )
 }
-
+console.log('error handler')
 export default ErrorHandler
 
 const styles = StyleSheet.create({
