@@ -8,7 +8,7 @@ type Props = {
 const ErrorHandler:FC<Props> = ({message}) => {
   return (
     <View style={styles.errorContainer}>
-      <Text style={styles.errorText}>{message}</Text>
+      <Text style={styles.errorText}>message</Text>
     </View>
   )
 }
