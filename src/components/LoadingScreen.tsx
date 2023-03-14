@@ -4,6 +4,7 @@ import { Colors } from '../constants';
 
 
 const LoadingScreen:FC = () => {
+  console.log("LOADING")
   return (
     <ActivityIndicator
     size="large"
