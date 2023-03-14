@@ -26,6 +26,7 @@ export type MovieDetailsType={
     
     
 }
+
 export type MovieDataType=MovieItemType&MovieDetailsType;
 export enum ActionType{
     SEARCH_MOVIES='SEARCH_MOVIES',

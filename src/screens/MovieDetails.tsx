@@ -44,6 +44,9 @@ const MovieDetails: FC<Props> = ({
       };
     })
     .filter(ie => ie.id.toString() === id)[0];
+    const x:()=>void=()=>{
+      return 4;
+    }
   return (
     <SafeAreaView style={styles.detailsContainer}>
       <FastImage
