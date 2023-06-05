@@ -8,9 +8,13 @@
     "lint": "eslint .",
     "start": "react-native start",
     "test": "jest",
+    "build:ios": "react-native bundle --entry-file='index.js' --bundle-output='./ios/main.jsbundle' --dev=false --platform='ios'",
     "freshInstall": "npm install && cd ios && pod install && cd .."
   },
   "dependencies": {
+
+    "@react-native-firebase/app": "^17.5.0",
+    "@react-native-firebase/messaging": "^17.5.0",
     "@react-navigation/bottom-tabs": "^6.5.3",
     "@react-navigation/native": "^6.1.2",
     "@react-navigation/native-stack": "^6.9.9",

@@ -16,7 +16,8 @@ const SearchBarComponent:FC<Props>= ({searchText,changeTextHandler}) => {
     value={searchText}
     iconColor={Colors.SECOND}
     style={{backgroundColor:Colors.ACCENT}}
-    inputStyle={{color:Colors.SECOND}}
+    placeholderTextColor={Colors.SECOND}
+    inputStyle={{color:Colors.SECOND,}}
   />
     
   );
